@@ -62,6 +62,19 @@
     url(../images/media.jpg);
 }
 
+#feedBack .owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#feedBack .owl-nav button.owl-prev{
+  left: -50px;
+} 
+#feedBack .owl-nav button.owl-next{
+  right: -50px;
+} 
 .footer {
   background-color: var(--color-dark);
 }
+
+
