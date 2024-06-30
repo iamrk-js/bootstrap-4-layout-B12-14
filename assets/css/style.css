@@ -73,6 +73,15 @@
 #feedBack .owl-nav button.owl-next{
   right: -50px;
 } 
+
+.servicePlans .card-body li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servicePlans .card-body li span{
+  margin-left: 10px;
+}
 .footer {
   background-color: var(--color-dark);
 }
