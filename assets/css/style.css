@@ -67,23 +67,42 @@
   top: 50%;
   transform: translateY(-50%);
 }
-#feedBack .owl-nav button.owl-prev{
+#feedBack .owl-nav button.owl-prev {
   left: -50px;
-} 
-#feedBack .owl-nav button.owl-next{
+}
+#feedBack .owl-nav button.owl-next {
   right: -50px;
-} 
+}
 
-.servicePlans .card-body li{
+.servicePlans .card-body li {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.servicePlans .card-body li span{
+.servicePlans .card-body li span {
   margin-left: 10px;
 }
+
+.staffImg {
+  border: 3px solid #fff;
+}
+
 .footer {
   background-color: var(--color-dark);
 }
 
+@media all and (max-width: 600px) {
+  .confirm form {
+    flex-direction: column;
+  }
 
+  .confirm form .form-group, .confirm form button  {
+    width: 100%;
+  }
+
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 70%;
+    margin: 0 auto 20px;
+}
+}
